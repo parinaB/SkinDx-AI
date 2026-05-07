@@ -35,12 +35,12 @@ Three pre-trained Keras models power the predictions:
 
 | Model | File | Purpose |
 |-------|------|---------|
-| Skin Type CNN | `skin_type_cnn.keras` | Classifies skin as Combination / Dry / Normal / Oily |
-| Skin Disease CNN | `skin_disease_cnn.keras` | Detects conditions (cellulitis, impetigo, ringworm, etc.) |
-| Skin Quiz ANN | `skin_quiz_ann.keras` | Recommends routine from lifestyle quiz answers |
+| Skin Type CNN | `skin_type_cnn.keras` | Classifies skin as Combination / Dry / Normal / Oily | Accuracy : **84.88%**
+| Skin Disease CNN | `skin_disease_cnn.keras` | Detects conditions (cellulitis, impetigo, ringworm, etc.) | Accuracy : **86.36 %**
+| Skin Quiz ANN | `skin_quiz_ann.keras` | Recommends routine from lifestyle quiz answers |  Accuracy : **91.50%**
 
 > ⚠️ Model files are not included in this repo due to size.  
-> Download them from: **[add your link here]**  
+> Download them from: **https://drive.google.com/drive/folders/13yTbbpTLsoC9QdnTC5REOXsUlfAcrmDO?usp=drive_link**  
 > Place them in `backend/models/`
 
 ---
