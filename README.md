@@ -1,7 +1,11 @@
 # SkinDx AI 
 ### AI-powered skin analysis — know your skin, feed it right.
 
-DermaCell uses three machine learning models to analyse your skin type, detect conditions, and generate a personalised skincare routine — all from 3 photos and a 5-question quiz.
+SkinDx AI uses three machine learning models to analyse your skin type, detect conditions, and generate a personalised skincare routine — all from 3 photos and a 5-question quiz.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/98253591-a72a-4d0e-a525-8993280e121e" width="400"/>
+</p>
+
 
 ---
 
