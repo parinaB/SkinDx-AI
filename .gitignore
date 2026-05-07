@@ -1,0 +1,37 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+
+# Models (too large for GitHub)
+*.keras
+*.h5
+*.pkl
+
+# Node
+node_modules/
+dist/
+.next/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code / Cursor
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+

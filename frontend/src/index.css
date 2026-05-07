@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght,SOFT@9..144,600,0&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sage: #e8f0e9;
+  --white: #ffffff;
+  --forest: #2d5a3d;
+  --mint: #c8e6c9;
+  --mint-dark: #a5d6a7;
+  --text-main: #1a2e1f;
+  --text-muted: #6b8f71;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", ui-sans-serif, system-ui;
+  background: var(--sage);
+  color: var(--text-main);
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@keyframes blobFloat {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, -22px, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.blob {
+  position: absolute;
+  border-radius: 9999px;
+  background: rgba(200, 230, 201, 0.3);
+  filter: blur(60px);
+  animation: blobFloat 10s ease-in-out infinite;
+}
+
